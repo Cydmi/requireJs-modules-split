@@ -1,0 +1,1 @@
+define("module/hello",["jquery","backbone"],function(e,n){var l=n.View.extend({el:"#app",render:function(){this.$el.append("hello ")}});return new l}),define("hello",function(){});

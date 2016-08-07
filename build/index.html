@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>requireJS</title>
+	<script type="text/javascript">
+		require={
+			  bundles: {
+             "hello": ["module/hello"],
+             "world":["module/world"]
+         	 },
+         	 urlArgs:'v=1000'
+		}
+	</script>
+	<script type="text/javascript" data-main="main" src="libs/require.js"></script>
+	
+</head>
+<body>
+	<nav>
+		<a href="#">hello</a> | 
+		<a href="#world">world</a>
+	</nav>
+    
+    <div id="app"></div>
+</body>
+</html>

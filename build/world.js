@@ -1,0 +1,1 @@
+define("module/world",["jquery","backbone"],function(e,n){var d=n.View.extend({el:"#app",render:function(){this.$el.append("world ")}});return new d}),define("world",function(){});

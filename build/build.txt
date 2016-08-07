@@ -1,0 +1,16 @@
+
+main.js
+----------------
+libs/underscore-min.js
+libs/jquery-min.js
+libs/backbone-min.js
+router.js
+main.js
+
+hello.js
+----------------
+module/hello.js
+
+world.js
+----------------
+module/world.js
