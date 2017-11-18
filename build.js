@@ -10,6 +10,16 @@
             name: "main"
         },
         {
+            name: "app",
+            create: true,
+            include: [
+                "module/app_model",
+                "module/app_view"
+         
+            ],
+            exclude: ["main"]
+        },
+        {
             name: "hello",
             create: true,
             include: [

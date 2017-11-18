@@ -2,7 +2,7 @@ define(['jquery','backbone'],function($,Backbone){
 		var worldV=Backbone.View.extend({
 			el:'#app',
 			render:function(){
-				this.$el.append('world ');
+				this.$el.html('world ');
 			}
 		});
 		return new worldV();
